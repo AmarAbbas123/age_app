@@ -13,7 +13,8 @@ function App() {
       return [...prevUsersList,
       {
         name:uName,
-        age:uAge
+        age:uAge,
+        id:Math.random().toString()
       }
       ]
     })
